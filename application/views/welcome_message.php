@@ -32,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	h1 {
 		color: #444;
 		background-color: transparent;
-		border-bottom: 1px solid #D0D0D0;
+		border-block-end: 1px solid #D0D0D0;
 		font-size: 19px;
 		font-weight: normal;
 		margin: 0 0 14px 0;
@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	#body {
 		margin: 0 15px 0 15px;
-		min-height: 96px;
+		min-block-size: 96px;
 	}
 
 	p {
@@ -61,9 +61,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	}
 
 	p.footer {
-		text-align: right;
+		text-align: end;
 		font-size: 11px;
-		border-top: 1px solid #D0D0D0;
+		border-block-start: 1px solid #D0D0D0;
 		line-height: 32px;
 		padding: 0 10px 0 10px;
 		margin: 20px 0 0 0;
